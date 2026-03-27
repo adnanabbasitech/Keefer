@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(26, 23, 23);
+    /* font-family:sans-serif; */
+}
+span{
+    color:brown;
+    font-weight: bold;
+}
+ #spn1{
+    color:brown;
+ }
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .logo img{
+height: 25vh;
+}
+.headercontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+}
+.headercontent h1{
+     font-weight: bold;
+     font-size: 41px;
+}
+.headercontent p{
+     font-weight: bold;
+     font-size: 17px;
+}
+
+nav{
+    margin: 0;
+    background-color: brown;
+   padding: 15px;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+ 
+}
+nav ul{
+    padding-right:25px;
+      list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:25px;
+    
+}
+ 
+nav a{
+    font-weight: bolder;
+      color: white;
+   letter-spacing: 2px;
+    text-decoration: none;
+}
+.heroimages{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.Fimage{
+    width: 50%;
+}
+.Simage{
+    width: 50%;
+}
+.Fimage img{
+    width: 100%;
+     height: 70vh;
+  
+}
+.Simage img{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.btnimg{
+    display: none;
+    width: 10px;
+    height: 10px;
+}
+.thirdsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap:20px;
+}
+.line{
+  width: 170px;   
+  height: 2px;     
+  background-color: rgb(104, 100, 100);
+}
+.linev{
+    
+  width: 2px;   
+  height: 200px;     
+  background-color: rgb(104, 100, 100);
+}
+.line2{
+   margin-left: -40px;
+     width: 485px;   
+  height: 2px;     
+  background-color: rgb(104, 100, 100);
+}
+.first{
+    width: 33.33%;
+    padding: 20px;
+}
+.firstcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 33.33%;
+    padding: 20px;
+}
+.heading1{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.third{
+    width: 33.33%;
+    padding: 20px;
+}
+.lastsec{
+ display: flex;
+ justify-content: center;
+}
+.contentarea{
+ width: 30%;
+ padding: 20px;
+}
+
+.titlearea{
+ /* width: 45%; */
+ padding: 20px;
+}
+.clientarea{
+ width: 25%;
+ padding: 20px;
+}
+.practarea{
+     display: flex;
+    align-items: center;
+    gap:20px;
+    margin: 10px;
+     background-color: rgb(142, 131, 131);
+     width: 60%;
+     height: 10%;
+     
+}
+ .prctcontent h2,span{
+color:white;
+ }
+ 
+ .prctcontent img{
+ margin-top: 10px;
+ }
+ 
+.spnbtn span{
+    background-color: brown;
+    color:white;
+  padding: 2px;
+}
+.btn{
+    margin-left: 40px;
+}
+.spnbtn{
+    margin-left: 160px;
+}
+.second .spnbtn{
+    margin-left: 0px;
+}
+.third .spnbtn{
+    margin-left: 90px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.pra-img img{
+    margin-top: 4px;
+    width: 10px;
+    height: 56px;
+}
+.linecontainer span{
+       background-color: brown;
+    color:white;
+  padding: 2px;
+  
+}
+.linecontainer{
+    margin-left: 85px;
+}
+.clientimages{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.clientimages img{
+    width: 150px;
+}
+.clientimages .img2{
+    width: 120px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
