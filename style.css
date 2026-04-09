@@ -1,53 +1,2534 @@
- 
-header{
-    background-color: rgb(233, 238, 243);
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(26, 23, 23);
+}
+body{
+    font-size: 16px;
+}
+span{
+    color:brown;
+    font-weight: bold;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .logo img{
+width: 130%;
+}
+.headercontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+}
+.headercontent h1{
+     font-weight: bold;
+     font-size: 2.73em;
+}
+.headercontent h2{
+     font-weight: bold;
+     font-size: 1.5em;
+}
+#topline{
     width: 100%;
-    height: 13vh;
-    margin: 5px;
+    margin-top: 4px;
+    height: 4px;
+     background-color: rgba(86, 81, 81, 0.799);
+}
+.headercontent p{
+     font-weight: bold;
+     font-size: 1.12em;
+}
+
+nav{
+    margin: 0;
+    background-color: brown;
+   padding: 15px;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+ 
+}
+nav ul{
+    padding-right:25px;
+      list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:25px;
+    
+}
+ 
+nav a{
+    font-weight: bolder;
+      color: white;
+   letter-spacing: 2px;
+   letter-spacing: 0.1em;
+    text-decoration: none;
+}
+.heroimages{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.Fimage{
+    min-width: 50%;
+   height: 80%;
+
+}
+.Simage{
+    min-width: 50%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+
+}
+.Fimage img{
+    width: 100%;
+
+}
+ 
+ #spn1{
+    color:brown;
+ }
+ #spn2{
+    color:rgb(38, 69, 152);
+     font-size: 1.9em;
+ }
+ #spn4{
+    color:rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #h1Q{
+    background-color: brown;
+    padding: 5px;
+    font-size: 1.75em;
+    color:white;
+ }
+ .questions h2{
+    font-size: 1.38em;
+ }
+
+.questions{
+    display: flex;
+    gap:40px
+}
+#questionpara{
+    width: 90%;
+    margin: auto;
+    font-size: 1.4em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    margin: 15px;
+    margin-bottom: 0;
+}
+.name{
+margin-left: 4%;
+}
+.mail{
+margin-left: 3.23%;
+}
+.phone{
+margin-left: 2.4%;
+}
+form label{
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+   
+    border: none;
+    border:1px solid black;
+    padding: 3px;
+    margin: auto;
+    width: 40%;
+}
+form textarea{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    height: 10%;
+    margin-top: 10px;
+}
+ 
+textarea::placeholder {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 15px;
+  font-size: 1.12em;
+}
+.confidential{
+    position: relative;
+}
+.confidential img{
+    position: absolute;
+    width: 35%;
+    height: 60px;
+   bottom: 100px;
+   margin-left: 60%;
+   transform: rotate(10deg);
+}
+.Guarante{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   margin: auto;
+   margin-left: 5%;
+   margin-top: 12px;
+}
+.Guarante p{
+   font-style: italic;
+}
+#askusbtn{
+    width: 70%;
+    margin-left: 6px;
+}
+.btnG{
+    display: flex;
+    background-color: brown;
+    gap: 5px;
+    padding: 12px;
+border-radius: 2px;
+}
+.btnG p{
+    color:white;
+    font-weight: 500;
+    font-size: 1.19em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+ 
+.thirdsec{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px;
+    gap:20px;
+}
+.line{ 
+  width: 10.6em;   
+  height: 2px;     
+  background-color: rgba(155, 145, 145, 0.605);
+}
+.linev{
+    
+  width: 2px;       
+  height: 18em;     
+  background-color: rgba(199, 190, 190, 0.527);
+}
+.line2{
+   margin-left: -10%;
+     width: 485px;     
+  height: 2px;     
+  background-color:rgba(199, 190, 190, 0.527);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.first{
+    width: 33.33%;
+    padding: 20px;
+}
+h1{
+    font-size: 1.55em;
+}
+h2{
+    margin-top: 5px;
+    font-size: 1.12em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first p{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 1.24em;
+}
+.firstimage img{
+    width: 6.1em;
+    margin-bottom: 20px;
+}
+.firstcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 33.33%;
+    padding: 20px;
+}
+.second p{
+        width: 80%;
+    font-size: 20px;
+    font-size: 1.24em;
+}
+.pic1 img{
+    width: 10.5em;
+}
+.ordericon img{
+      width: 10.5em;
+}
+.heading2 p{
+    width: 110%;
+}
+.heading1{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.third{
+    width: 33.33%;
+    padding: 20px;
+}
+.third img{
+      width: 6.1em;
+}
+#picqqq{
+    width: 7.3em;
+   
+}
+.thirdimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
     margin-bottom: 10px;
 }
-nav{
-      background-color: rgb(233, 238, 243);
-    width: 100%;
-    height: 10vh;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.third p{
+    margin-top: 10px;
 }
-main{
-    display: flex;
+.lastsec{
+ display: flex;
+ justify-content: center;
 }
-.box1{
-     background-color: rgb(233, 238, 243);
-     width: 20%;
-    height: 60vh;
+.contentarea{
+ width: 25%;
+ padding: 20px;
+}
+
+.titlearea{
+ width: 60%;
+ padding: 20px;
+}
+.titlearea h1{
+    font-size: 1.88em;
+    margin-bottom: 20px;
+}
+.titlearea p{
+    font-size: 1.03em;
+    line-height: 1.5;
+}
+.clientarea{
+ width: 15%;
+ padding: 20px;
+}
+.practarea{
      display: flex;
-    justify-content: center;
     align-items: center;
-     margin: 5px;
+    gap:10px;
+    margin: 10px;
+     background-color: rgba(91, 88, 88, 0.71);
+     width: 100%;
+     height: 79px;
+      
+     
 }
-.box2{
-     background-color: rgb(233, 238, 243);
-     width: 62%;
-    height: 60vh;
+ .prctcontent h2{
+color:white;
+font-size: 1.2em;
+text-transform: uppercase;
+ }
+ .prctcontent span{
+color:white;
+font-size: 10px;
+text-transform: uppercase;
+ 
+ }
+ .moreabout{
+    margin-top: 50px;
+ }
+ .menuarea h1{
+     margin-top: 80px;
+     text-align: center;
+     line-height: 1.5;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgba(0, 0, 0, 0.249);
+     
+ }
+ 
+ .prctcontent img{
+ margin-top: 10px;
+ }
+ 
+.spnbtn span{
+    background-color: brown;
+    color:white;
+  padding: 2px;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+.btn span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  
+}
+.btn2{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 5px;
+    justify-content: center;
+    margin-left: 125px;
+    
+
 }
-.box3{
-margin-right: -5px;
+.btn2 span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
 }
-footer{
-        background-color: rgb(233, 238, 243);
+.btn2 img{
+    width: 10px;
+   
+}
+ 
+.spnbtn{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.second .spnbtn{
+    margin-left: 0px;
+}
+.third .spnbtn{
+    margin-left: 90px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn img{
+    width: 10px;
+     
+}
+.pra-img img{
+    margin-top: 3.5px;
+    width: 12px;
+    height: 79px;
+}
+.linecontainer{
+    margin-left: -5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.linecontainer span{
+       background-color: brown;
+    color:white;
+}
+.linecontainer .btn{
+    margin-top: 5px;
+}
+.linecontainer .line{
+    width: 190px;
+    background-color: rgba(86, 81, 81, 0.799);
+}
+.clientimages{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+     margin-bottom: 30px;
+}
+.clientimages img{
+    width: 10em;
+}
+.clientimages .img2{
+    width: 140px;
+    width: 9em;
+}
+.socialicons h1{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+.socialicons .linecontainer{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.icons img{
+    width: 38px;
+}
+.brownlinecontainer{
     width: 100%;
-    height: 10vh;
-    margin: 5px;
+    height: 10px;
+    background-color: rgb(105, 33, 33);
+}
+
+/* Medai queries */
+/* TABLET (max-width: 2000px) */
+/* Medai queries */
+/* TABLET (max-width: 2000px) */
+/* Medai queries */
+/* TABLET (max-width: 2000px) */
+/* Medai queries */
+
+
+
+@media (max-width: 2000px) {
+.Fimage{
+    width: 100%;
+    height: 400px;
+   
+}
+.Simage{
+    min-width: 50%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+  height: 400px;
+}
+.Fimage img{
+   min-width:100%;
+  margin: auto;
+ height: 400px;
+
+}
+}
+/* TABLET (max-width: 1160px) */
+/* Medai queries */
+/* TABLET (max-width: 1160px) */
+/* Medai queries */
+/* TABLET (max-width: 1160px) */
+/* Medai queries */
+/* TABLET (max-width: 1160px) */
+/* Medai queries */
+@media (max-width: 1160px) {
+    body{
+        font-size: 30px;
+    }
+  .top{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+}
+.top .logo img{
+width: 100vw;
+}
+.headercontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headercontent h1{
+     font-weight: bold;
+     font-size: 2.8em;
+}
+.headercontent h2{
+     font-weight: bold;
+     font-size: 1.553em;
+}
+#topline{
+    width: 100%;
+    margin-top: 4px;
+    height: 4px;
+     background-color: rgba(86, 81, 81, 0.799);
+}
+.headercontent p{
+     font-weight: bold;
+     font-size: 1.16em;
+}
+
+nav{
+    display: none;
+    margin: 0;
+    background-color: brown;
+   padding: 2px;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+ 
+}
+nav ul{
+    padding-right:25px;
+      list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:25px;
+    
+}
+ 
+nav a{
+    font-weight: bolder;
+      color: white;
+   letter-spacing: 2px;
+    text-decoration: none;
+}
+.heroimages{
+    gap:20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Fimage{
+    width: 100%;
+    height: 80%;
+   
+}
+.Simage{
+    min-width: 100%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+height: auto;
+}
+.Fimage img{
+   min-width:100%;
+  height: 80%;
+}
+ 
+ #spn1{
+    color:brown;
+ }
+ #spn2{
+    color:rgb(38, 69, 152);
+    font-size: 1.8em;
+ }
+ #spn4{
+    color:rgb(0, 0, 0);
+    font-size: 0.77em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #h1Q{
+    background-color: brown;
+    padding: 5px;
+    font-size: 1.9em;
+    color:white;
+ }
+ .questions h2{
+    font-size: 1.2em;
+ }
+.questions{
+    display: flex;
+    gap:40px
+}
+#questionpara{
+    width: 90%;
+    margin: auto;
+    font-size: 1.3em;
+    margin-top: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin: 5px;
+    margin-top: 30px;
+}
+.name{
+margin-left: 5%;
+}
+.mail{
+margin-left: 4.3%;
+}
+.phone{
+margin-left: 3.5%;
+}
+form label{
+    font-size: 0.75em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+   
+    border: none;
+    border:1px solid black;
+    padding: 2px;
+    margin: auto;
+    width: 40%;
+    font-size: 0.9em;
+}
+form textarea{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ 
+textarea::placeholder {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 1.5em;
+}
+.confidential{
+    position: relative;
+}
+.confidential img{
+    position: absolute;
+    width: 30%;
+    height: 80px;
+   bottom:180px;
+   margin-left: 60%;
+   transform: rotate(10deg);
+}
+.Guarante{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   margin: auto;
+   margin-left: 5%;
+   margin-bottom: 20px;
+}
+.Guarante p{
+   font-style: italic;
+}
+#askusbtn{
+    width: 80%;
+    margin-left: 6px;
+}
+.btnG{
+    display: flex;
+    background-color: brown;
+    gap: 5px;
+    padding: 15px 15px;
+
+}
+.btnG p{
+    color:white;
+    font-weight: 500;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+ 
+.thirdsec{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    gap:20px;
+}
+ 
+.linev{
+     display: none;
+}
+.line2{
+    display: none;
+}
+.first{
+    width: 100%;
+    padding: 20px;
+}
+h1{
+    font-size: 1.55em;
+}
+h2{
+    margin-top: 5px;
+    font-size: 1.122em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first p{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+.firstimage img{
+    width: 6.2em;
+    margin-bottom: 20px;
+}
+.firstcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.second p{
+        width: 80%;
+    font-size: 1.25em;
+}
+ 
+.pic1 img{
+    width: 10.5em;
+}
+.ordericon img{
+    width: 10.5em;
+}
+.heading2 p{
+    width: 110%;
+}
+.heading1{
+      display: flex;
+    justify-content: start;
+    align-items: center; 
+ 
+    
+}
+.heading2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.third{
+    width: 100%;
+    padding: 20px;
+}
+.third img{
+    width: 6.1em;
+}
+#picqqq{
+    width: 7em;
+   
+}
+.thirdimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 10px;
+}
+.third p{
+    margin-top: 10px;
+}
+.lastsec{
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+}
+.contentarea{
+ width: 60%;
+ text-align: start;
+}
+
+.titlearea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.titlearea h1{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+.titlearea p{
+    font-size: 16.5px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: start;
+    
+}
+.clientarea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.practarea{
+     display: flex;
+    align-items: center;
+    gap:10px;
+     background-color: rgba(91, 88, 88, 0.71);
+     width: 90%;
+     height: 79px;
+
+     justify-content: start;
+      
+     
+}
+ .prctcontent h2{
+color:white;
+font-size: 1.2em;
+text-transform: uppercase;
+ }
+ .prctcontent span{
+color:white;
+font-size: 2em;
+text-transform: uppercase;
+ 
+ }
+ .moreabout{
+    margin-top: 50px;
+ }
+ .menuarea h1{
+     margin-top: 80px;
+     text-align: center;
+     line-height: 1.5;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgba(0, 0, 0, 0.249);
+     
+ }
+ 
+ .prctcontent img{
+ margin-top: 10px;
+ }
+ 
+.spnbtn span{
+    background-color: brown;
+    color:white;
+  padding: 2px;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+.btn span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    
+
+}
+.btn2 span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2 img{
+    width: 10px;
+   
+}
+ 
+.spnbtn{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.second .spnbtn{
+    margin-left: 0px;
+}
+.third .spnbtn{
+    margin-left: 90px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn img{
+    width: 10px;
+     
+}
+.pra-img img{
+    margin-top: 3.5px;
+    width: 12px;
+    height: 79px;
+}
+.linecontainer{
+   margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.linecontainer span{
+       background-color: brown;
+    color:white;
+}
+.linecontainer .btn{
+    margin-top: 5px;
+}
+.linecontainer .line{
+    width: 190px;
+    background-color: rgba(86, 81, 81, 0.799);
+   margin-left: 100px;
+}
+.clientimages{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+     margin-bottom: 30px;
+}
+.clientcontent p{
+   margin-top: 20px;
+}
+.clientimages img{
+    width: 160px;
+}
+.clientimages .img2{
+    width: 140px;
+}
+.socialicons h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.socialicons .linecontainer{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.icons img{
+    width: 38px;
+}
+.brownlinecontainer{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(105, 33, 33);
+}
+}
+/* TABLET (max-width: 800px) */
+/* Medai queries */
+/* TABLET (max-width: 800px) */
+/* Medai queries */
+/* TABLET (max-width: 800px) */
+/* Medai queries */
+/* TABLET (max-width: 800px) */
+@media (max-width: 800px) {
+    body{
+        font-size: 22px;
+    }
+  .top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top .logo img{
+width: 100vw;
+}
+.headercontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headercontent h1{
+     font-weight: bold;
+     font-size: 2.8em;
+}
+.headercontent h2{
+     font-weight: bold;
+     font-size: 1.553em;
+}
+#topline{
+    width: 100%;
+    margin-top: 4px;
+    height: 4px;
+     background-color: rgba(86, 81, 81, 0.799);
+}
+.headercontent p{
+     font-weight: bold;
+     font-size: 1.16em;
+}
+
+nav{
+    display: none;
+    margin: 0;
+    background-color: brown;
+   padding: 2px;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+ 
+}
+nav ul{
+    padding-right:25px;
+      list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:25px;
+    
+}
+ 
+nav a{
+    font-weight: bolder;
+      color: white;
+   letter-spacing: 2px;
+    text-decoration: none;
+}
+.heroimages{
+    gap:20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Fimage{
+    width: 100%;
+    height: 70%;
+   
+}
+.Simage{
+    min-width: 100%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+}
+.Fimage img{
+   min-width:100%;
+  margin: auto;
+height: 70%;
+}
+ 
+ #spn1{
+    color:brown;
+ }
+ #spn2{
+    color:rgb(38, 69, 152);
+    font-size: 1.8em;
+ }
+ #spn4{
+    color:rgb(0, 0, 0);
+    font-size: 0.77em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #h1Q{
+    background-color: brown;
+    padding: 5px;
+    font-size: 1.9em;
+    color:white;
+ }
+ .questions h2{
+    font-size: 1.2em;
+ }
+.questions{
+    display: flex;
+    gap:40px
+}
+#questionpara{
+    width: 90%;
+    margin: auto;
+    font-size: 1.3em;
+    margin-top: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin: 5px;
+    margin-top: 30px;
+}
+.name{
+margin-left: 5%;
+}
+.mail{
+margin-left: 4.3%;
+}
+.phone{
+margin-left: 3.5%;
+}
+form label{
+    font-size: 0.75em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+   
+    border: none;
+    border:1px solid black;
+    padding: 2px;
+    margin: auto;
+    width: 40%;
+    font-size: 0.9em;
+}
+form textarea{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ 
+textarea::placeholder {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 1.5em;
+}
+.confidential{
+    position: relative;
+}
+.confidential img{
+    position: absolute;
+    width: 30%;
+    height: 80px;
+   bottom:180px;
+   margin-left: 60%;
+   transform: rotate(10deg);
+}
+.Guarante{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   margin: auto;
+   margin-left: 5%;
+   margin-bottom: 20px;
+}
+.Guarante p{
+   font-style: italic;
+}
+#askusbtn{
+    width: 50%;
+    margin-left: 6px;
+}
+.btnG{
+    display: flex;
+    background-color: brown;
+    gap: 5px;
+    padding: 15px 15px;
+
+}
+.btnG p{
+    color:white;
+    font-weight: 500;
+    font-size: 0.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+ 
+.thirdsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap:20px;
+}
+ 
+.linev{
+     display: none;
+}
+.line2{
+    display: none;
+}
+.first{
+    width: 100%;
+    padding: 20px;
+}
+h1{
+    font-size: 1.55em;
+}
+h2{
+    margin-top: 5px;
+    font-size: 1.122em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first p{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+.firstimage img{
+    width: 6.2em;
+    margin-bottom: 20px;
+}
+.firstcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.second p{
+        width: 80%;
+    font-size: 1.25em;
+}
+ 
+.pic1 img{
+    width: 10.5em;
+}
+.ordericon img{
+    width: 10.5em;
+}
+.heading2 p{
+    width: 110%;
+}
+.heading1{
+      display: flex;
+    justify-content: start;
+    align-items: center; 
+ 
+    
+}
+.heading2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.third{
+    width: 100%;
+    padding: 20px;
+}
+.third img{
+    width: 6.1em;
+}
+#picqqq{
+    width: 7em;
+   
+}
+.thirdimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 10px;
+}
+.third p{
+    margin-top: 10px;
+}
+.lastsec{
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+}
+.contentarea{
+ width: 90%;
+ text-align: start;
+}
+
+.titlearea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.titlearea h1{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+.titlearea p{
+    font-size: 16.5px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: start;
+    
+}
+.clientarea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.practarea{
+     display: flex;
+    align-items: center;
+    gap:10px;
+     background-color: rgba(91, 88, 88, 0.71);
+     width: 90%;
+     height: 79px;
+
+     justify-content: start;
+      
+     
+}
+ .prctcontent h2{
+color:white;
+font-size: 1.6em;
+text-transform: uppercase;
+ }
+ .prctcontent span{
+color:white;
+font-size: 2em;
+text-transform: uppercase;
+ 
+ }
+ .moreabout{
+    margin-top: 50px;
+ }
+ .menuarea h1{
+     margin-top: 80px;
+     text-align: center;
+     line-height: 1.5;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgba(0, 0, 0, 0.249);
+     
+ }
+ 
+ .prctcontent img{
+ margin-top: 10px;
+ }
+ 
+.spnbtn span{
+    background-color: brown;
+    color:white;
+  padding: 2px;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+.btn span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    
+
+}
+.btn2 span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2 img{
+    width: 10px;
+   
+}
+ 
+.spnbtn{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.second .spnbtn{
+    margin-left: 0px;
+}
+.third .spnbtn{
+    margin-left: 90px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn img{
+    width: 10px;
+     
+}
+.pra-img img{
+    margin-top: 3.5px;
+    width: 12px;
+    height: 79px;
+}
+.linecontainer{
+   margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.linecontainer span{
+       background-color: brown;
+    color:white;
+}
+.linecontainer .btn{
+    margin-top: 5px;
+}
+.linecontainer .line{
+    width: 190px;
+    background-color: rgba(86, 81, 81, 0.799);
+   margin-left: 100px;
+}
+.clientimages{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+     margin-bottom: 30px;
+}
+.clientcontent p{
+   margin-top: 20px;
+}
+.clientimages img{
+    width: 160px;
+}
+.clientimages .img2{
+    width: 140px;
+}
+.socialicons h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.socialicons .linecontainer{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.icons img{
+    width: 38px;
+}
+.brownlinecontainer{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(105, 33, 33);
+}
+}
+
+/*MOBILE (max-width: 600px)*/
+/*MOBILE (max-width: 600px)*/
+/*MOBILE (max-width: 600px)*/
+/*MOBILE (max-width: 600px)*/
+/*MOBILE (max-width: 600px)*/
+ 
+@media (max-width: 600px) {
+
+    body{
+        font-size: 16px;
+    }
+  .top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top .logo img{
+width: 100vw;
+}
+.headercontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headercontent h1{
+     font-weight: bold;
+     font-size: 2.8em;
+}
+.headercontent h2{
+     font-weight: bold;
+     font-size: 1.55em;
+}
+#topline{
+    width: 100%;
+    margin-top: 4px;
+    height: 4px;
+     background-color: rgba(86, 81, 81, 0.799);
+}
+.headercontent p{
+     font-weight: bold;
+     font-size: 1.16em;
+}
+
+nav{
+    display: none;
+    margin: 0;
+    background-color: brown;
+   padding: 2px;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+ 
+}
+nav ul{
+    padding-right:25px;
+      list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:25px;
+    
+}
+ 
+nav a{
+    font-weight: bolder;
+      color: white;
+   letter-spacing: 2px;
+    text-decoration: none;
+}
+.heroimages{
+    gap:20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Fimage{
+    width: 100%;
+    
+   
+}
+.Simage{
+    min-width: 100%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+}
+.Fimage img{
+   min-width:100%;
+  margin: auto;
+
+}
+ 
+ #spn1{
+    color:brown;
+ }
+ #spn2{
+    color:rgb(38, 69, 152);
+    font-size: 2em;
+ }
+ #spn4{
+    color:rgb(0, 0, 0);
+    font-size: 0.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #h1Q{
+    background-color: brown;
+    padding: 5px;
+    font-size: 1.4em;
+    color:white;
+ }
+ .questions h2{
+    font-size: 0.8em;
+ }
+.questions{
+    display: flex;
+    gap:40px
+}
+#questionpara{
+    width: 90%;
+    margin: auto;
+    font-size: 1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin: 5px;
+    margin-bottom: 0;
+}
+.name{
+margin-left: 4%;
+}
+.mail{
+margin-left: 3.45%;
+}
+.phone{
+margin-left: 2.9%;
+}
+form label{
+    font-size: 0.6em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+   
+    border: none;
+    border:1px solid black;
+    padding: 2px;
+    margin: auto;
+    width: 40%;
+    font-size: 0.5em;
+}
+form textarea{
+    display: flex;
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    height: 20px;
+  margin-top: 10px;
+}
+ 
+textarea::placeholder {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 10px;
+}
+.confidential{
+    position: relative;
+}
+.confidential img{
+    position: absolute;
+    width: 25%;
+    height: 40px;
+   bottom: 70px;
+   margin-left: 65%;
+   transform: rotate(10deg);
+}
+.Guarante{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   margin: auto;
+   margin-left: 5%;
+   margin-bottom: 10px;
+}
+.Guarante p{
+   font-style: italic;
+}
+#askusbtn{
+    width: 40%;
+    margin-left: 6px;
+}
+.btnG{
+    display: flex;
+    background-color: brown;
+    gap: 5px;
+    padding: 9px;
+
+}
+.btnG p{
+    color:white;
+    font-weight: 500;
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+ 
+.thirdsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap:20px;
+}
+ 
+.linev{
+     display: none;
+}
+.line2{
+    display: none;
+}
+.first{
+    width: 100%;
+    padding: 20px;
+}
+h1{
+    font-size: 1.55em;
+}
+h2{
+    margin-top: 5px;
+    font-size: 1.122em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first p{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+.firstimage img{
+    width: 6.2em;
+    margin-bottom: 20px;
+}
+.firstcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.second p{
+        width: 80%;
+    font-size: 1.25em;
+}
+ 
+.pic1 img{
+    width: 10.5em;
+}
+.ordericon img{
+    width: 10.5em;
+}
+.heading2 p{
+    width: 110%;
+}
+.heading1{
+      display: flex;
+    justify-content: start;
+    align-items: center; 
+ 
+    
+}
+.heading2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.third{
+    width: 100%;
+    padding: 20px;
+}
+.third img{
+    width: 6.1em;
+}
+.third h1{
+    display: inline;
+
+}
+#picqqq{
+    width: 7em;
+   
+}
+.thirdimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 10px;
+}
+.third p{
+    margin-top: 10px;
+    font-size: 1.25em;
+    width: 90%;
+}
+.lastsec{
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+}
+.contentarea{
+ width: 90%;
+ text-align: start;
+}
+
+.titlearea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.titlearea h1{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+.titlearea p{
+    font-size: 16.5px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: start;
+    
+}
+.clientarea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.practarea{
+     display: flex;
+    align-items: center;
+    gap:10px;
+     background-color: rgba(91, 88, 88, 0.71);
+     width: 90%;
+     height: 79px;
+
+     justify-content: start;
+      
+     
+}
+ .prctcontent h2{
+color:white;
+font-size: 1.4em;
+text-transform: uppercase;
+ }
+ .prctcontent span{
+color:white;
+font-size: 2em;
+text-transform: uppercase;
+ 
+ }
+ .moreabout{
+    margin-top: 50px;
+ }
+ .menuarea h1{
+     margin-top: 80px;
+     text-align: center;
+     line-height: 1.5;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgba(0, 0, 0, 0.249);
+     
+ }
+ 
+ .prctcontent img{
+ margin-top: 10px;
+ }
+ 
+.spnbtn span{
+    background-color: brown;
+    color:white;
+  padding: 2px;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+.btn span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    float: right;
+    
+
+}
+.btn2 span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2 img{
+    width: 10px;
+   
+}
+ 
+.spnbtn{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.second .spnbtn{
+    margin-left: 0px;
+}
+.third .spnbtn{
+    margin-left: 90px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn img{
+    width: 10px;
+     
+}
+.pra-img img{
+    margin-top: 3.5px;
+    width: 12px;
+    height: 79px;
+}
+.linecontainer{
+   margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.linecontainer span{
+       background-color: brown;
+    color:white;
+}
+.linecontainer .btn{
+    margin-top: 5px;
+}
+.linecontainer .line{
+    width: 190px;
+    background-color: rgba(86, 81, 81, 0.799);
+   margin-left: 100px;
+}
+.clientimages{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+     margin-bottom: 30px;
+}
+.clientcontent p{
+   margin-top: 20px;
+}
+.clientimages img{
+    width: 160px;
+}
+.clientimages .img2{
+    width: 140px;
+}
+.socialicons h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.socialicons .linecontainer{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.icons img{
+    width: 38px;
+}
+.brownlinecontainer{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(105, 33, 33);
+}
+}
+
+
+/* Media query 400px */
+/* Media query 400px */
+/* Media query 400px */
+/* Media query 400px */
+/* Media query 400px */
+/* Media query 400px */
+/* Media query 400px */
+/* Media query 400px */
+ 
+@media (max-width: 450px) {
+
+    body{
+        font-size: 10px;
+    }
+  .top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top .logo img{
+width: 100vw;
+}
+.headercontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headercontent h1{
+     font-weight: bold;
+     font-size: 2.8em;
+}
+.headercontent h2{
+     font-weight: bold;
+     font-size: 1.55em;
+}
+#topline{
+    width: 100%;
+    margin-top: 4px;
+    height: 4px;
+     background-color: rgba(86, 81, 81, 0.799);
+}
+.headercontent p{
+     font-weight: bold;
+     font-size: 1.16em;
+}
+
+nav{
+    display: none;
+    margin: 0;
+    background-color: brown;
+   padding: 2px;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+ 
+}
+nav ul{
+    padding-right:25px;
+      list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:25px;
+    
+}
+ 
+nav a{
+    font-weight: bolder;
+      color: white;
+   letter-spacing: 2px;
+    text-decoration: none;
+}
+.heroimages{
+    gap:20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Fimage{
+    width: 100%;
+    
+   
+}
+.Simage{
+    min-width: 100%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+}
+.Fimage img{
+   min-width:100%;
+  margin: auto;
+
+}
+ 
+ #spn1{
+    color:brown;
+ }
+ #spn2{
+    color:rgb(38, 69, 152);
+    font-size: 2em;
+ }
+ #spn4{
+    color:rgb(0, 0, 0);
+    font-size: 0.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #h1Q{
+    background-color: brown;
+    padding: 5px;
+    font-size: 1.4em;
+    color:white;
+ }
+ .questions h2{
+    font-size: 0.8em;
+ }
+.questions{
+    display: flex;
+    gap:40px
+}
+#questionpara{
+    width: 90%;
+    margin: auto;
+    font-size: 1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin: 5px;
+    margin-bottom: 0;
+}
+.name{
+margin-left: 4%;
+}
+.mail{
+margin-left: 3.45%;
+}
+.phone{
+margin-left: 2.9%;
+}
+form label{
+    font-size: 0.6em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+   
+    border: none;
+    border:1px solid black;
+    padding: 2px;
+    margin: auto;
+    width: 40%;
+    font-size: 0.5em;
+}
+form textarea{
+    display: flex;
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    height: 20px;
+  margin-top: 10px;
+}
+ 
+textarea::placeholder {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 10px;
+}
+.confidential{
+    position: relative;
+}
+.confidential img{
+    position: absolute;
+    width: 25%;
+    height: 30px;
+   bottom: 70px;
+   margin-left: 65%;
+   transform: rotate(10deg);
+}
+.Guarante{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   margin: auto;
+   margin-left: 5%;
+   margin-bottom: 10px;
+}
+.Guarante p{
+   font-style: italic;
+}
+#askusbtn{
+    width: 40%;
+    margin-left: 6px;
+}
+.btnG{
+    display: flex;
+    background-color: brown;
+    gap: 5px;
+    padding: 6px;
+
+}
+.btnG p{
+    color:white;
+    font-weight: 500;
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+ 
+.thirdsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap:20px;
+}
+ 
+.linev{
+     display: none;
+}
+.line2{
+    display: none;
+}
+.first{
+    width: 100%;
+    padding: 20px;
+}
+h1{
+    font-size: 1.55em;
+}
+h2{
+    margin-top: 5px;
+    font-size: 1.122em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first p{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+.firstimage img{
+    width: 6.2em;
+    margin-bottom: 20px;
+}
+.firstcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.second p{
+        width: 80%;
+    font-size: 1.25em;
+}
+ 
+.pic1 img{
+    width: 10.5em;
+}
+.ordericon img{
+    width: 10.5em;
+}
+.heading2 p{
+    width: 110%;
+}
+.heading1{
+      display: flex;
+    justify-content: start;
+    align-items: center; 
+ 
+    
+}
+.heading2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.third{
+    width: 100%;
+    padding: 20px;
+}
+.third img{
+    width: 6.1em;
+}
+#picqqq{
+    width: 7em;
+   
+}
+.thirdimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 10px;
+}
+.third p{
+    margin-top: 10px;
+}
+.lastsec{
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+}
+.contentarea{
+ width: 90%;
+ text-align: start;
+}
+
+.titlearea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.titlearea h1{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+.titlearea p{
+    font-size: 16.5px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: start;
+    
+}
+.clientarea{
+ width: 90%;
+ padding: 20px;
+ text-align: center;
+}
+.practarea{
+     display: flex;
+    align-items: center;
+    gap:10px;
+     background-color: rgba(91, 88, 88, 0.71);
+     width: 90%;
+     height: 79px;
+
+     justify-content: start;
+      
+     
+}
+ .prctcontent h2{
+color:white;
+font-size: 1.6em;
+text-transform: uppercase;
+ }
+ .prctcontent span{
+color:white;
+font-size: 2em;
+text-transform: uppercase;
+ 
+ }
+ .moreabout{
+    margin-top: 50px;
+ }
+ .menuarea h1{
+     margin-top: 80px;
+     text-align: center;
+     line-height: 1.5;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgba(0, 0, 0, 0.249);
+     
+ }
+ 
+ .prctcontent img{
+ margin-top: 10px;
+ }
+ 
+.spnbtn span{
+    background-color: brown;
+    color:white;
+  padding: 2px;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+.btn span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    
+
+}
+.btn2 span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2 img{
+    width: 10px;
+   
+}
+ 
+.spnbtn{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.second .spnbtn{
+    margin-left: 0px;
+}
+.third .spnbtn{
+    margin-left: 90px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn img{
+    width: 10px;
+     
+}
+.pra-img img{
+    margin-top: 3.5px;
+    width: 12px;
+    height: 79px;
+}
+.linecontainer{
+   margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.linecontainer span{
+       background-color: brown;
+    color:white;
+}
+.linecontainer .btn{
+    margin-top: 5px;
+}
+.linecontainer .line{
+    width: 190px;
+    background-color: rgba(86, 81, 81, 0.799);
+   margin-left: 100px;
+}
+.clientimages{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+     margin-bottom: 30px;
+}
+.clientcontent p{
+   margin-top: 20px;
+}
+.clientimages img{
+    width: 160px;
+}
+.clientimages .img2{
+    width: 140px;
+}
+.socialicons h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.socialicons .linecontainer{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.icons img{
+    width: 38px;
+}
+.brownlinecontainer{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(105, 33, 33);
+}
 }
