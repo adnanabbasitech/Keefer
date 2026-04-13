@@ -3,6 +3,13 @@
     padding: 0;
     color:rgb(26, 23, 23);
 }
+section{
+    max-width: 2000px;
+}
+.lastsec{
+     max-width: 2000px;
+}
+
 body{
     font-size: 16px;
 }
@@ -63,7 +70,6 @@ nav ul{
 nav a{
     font-weight: bolder;
       color: white;
-   letter-spacing: 2px;
    letter-spacing: 0.1em;
     text-decoration: none;
 }
@@ -85,6 +91,7 @@ nav a{
     background-repeat: no-repeat;    
   background-size: cover;         
   background-position: center;
+   
 
 }
 .Fimage img{
@@ -117,7 +124,7 @@ nav a{
 
 .questions{
     display: flex;
-    gap:40px
+    gap:40px;
 }
 #questionpara{
     width: 90%;
@@ -187,9 +194,496 @@ textarea::placeholder {
    margin: auto;
    margin-left: 5%;
    margin-top: 12px;
+   
+  
 }
 .Guarante p{
    font-style: italic;
+}
+#askusbtn{
+    width: 70%;
+    margin-left: 6px;
+    
+}
+.btnG{
+    display: flex;
+    background-color: brown;
+    gap: 5px;
+    padding: 12px;
+border-radius: 2px;
+
+}
+.btnG p{
+    color:white;
+    font-weight: 500;
+    font-size: 1.19em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    
+}
+ 
+.thirdsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap:20px;
+}
+.line{ 
+  width: 10.6em;   
+  height: 2px;     
+  background-color: rgba(155, 145, 145, 0.605);
+}
+.linev{
+    
+  width: 2px;       
+  height: 18em;     
+  background-color: rgba(199, 190, 190, 0.527);
+}
+.line2{
+    display: none;
+   margin-left: -10%;
+     width: 485px;     
+  height: 2px;     
+  background-color:rgba(199, 190, 190, 0.527);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.first{
+    width: 33.33%;
+    padding: 20px;
+}
+h1{
+    font-size: 1.55em;
+}
+h2{
+    margin-top: 5px;
+    font-size: 1.12em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.first p{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 1.24em;
+}
+.firstimage img{
+    width: 6.1em;
+    margin-bottom: 20px;
+}
+.firstcontent{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 33.33%;
+    padding: 20px;
+}
+.second p{
+        width: 80%;
+    font-size: 20px;
+    font-size: 1.24em;
+}
+.pic1 img{
+    width: 10.5em;
+}
+.ordericon img{
+      width: 10.5em;
+}
+.heading2 p{
+    width: 110%;
+}
+.heading1{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.heading2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.third{
+    width: 33.33%;
+    padding: 20px;
+}
+.third img{
+      width: 6.1em;
+}
+#picqqq{
+    width: 7.3em;
+   
+}
+.thirdimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 10px;
+}
+.third p{
+    margin-top: 10px;
+}
+.lastsec{
+ display: flex;
+ justify-content: center;
+}
+.contentarea{
+ width: 25%;
+ padding: 20px;
+}
+
+.titlearea{
+ width: 60%;
+ padding: 20px;
+}
+.titlearea h1{
+    font-size: 1.88em;
+    margin-bottom: 20px;
+}
+.titlearea p{
+    font-size: 1.03em;
+    line-height: 1.5;
+}
+.clientarea{
+ width: 15%;
+ padding: 20px;
+}
+.practarea{
+     display: flex;
+    align-items: center;
+    gap:10px;
+    margin: 10px;
+     background-color: rgba(91, 88, 88, 0.71);
+     width: 100%;
+     height: 79px;
+      
+     
+}
+ .prctcontent h2{
+color:white;
+font-size: 1.2em;
+text-transform: uppercase;
+ }
+ .prctcontent span{
+color:white;
+font-size: 10px;
+text-transform: uppercase;
+ 
+ }
+ .moreabout{
+    margin-top: 50px;
+ }
+ .menuarea h1{
+     margin-top: 80px;
+     text-align: center;
+     line-height: 1.5;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgba(0, 0, 0, 0.249);
+     
+ }
+ 
+ .prctcontent img{
+ margin-top: 10px;
+ }
+ 
+.spnbtn span{
+    background-color: brown;
+    color:white;
+  padding: 2px;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+.btn span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+  
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    
+
+}
+.btn2 span{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2 img{
+    width: 7%;
+   
+}
+ 
+.spnbtn{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.second .spnbtn{
+    margin-left: 0px;
+}
+.third .spnbtn{
+    margin-left: 90px;
+}
+.third .btn{
+    margin-left: 35px;
+}
+.third .btn img{
+    width: 10px;
+     
+}
+.pra-img img{
+    margin-top: 3.5px;
+    width: 12px;
+    height: 79px;
+}
+.linecontainer{
+    margin-left: -5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.linecontainer span{
+       background-color: brown;
+    color:white;
+}
+.linecontainer .btn{
+    margin-top: 5px;
+}
+.linecontainer .line{
+    width: 190px;
+    background-color: rgba(86, 81, 81, 0.799);
+}
+.clientimages{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+     margin-bottom: 30px;
+}
+.clientimages img{
+    width: 10em;
+}
+.clientimages .img2{
+    width: 140px;
+    width: 9em;
+}
+.socialicons h1{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+.socialicons .linecontainer{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.icons img{
+    width: 38px;
+}
+.brownlinecontainer{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(105, 33, 33);
+}
+
+/* Medai queries */
+/* TABLET (max-width: 2000px) */
+/* Medai queries */
+/* TABLET (max-width: 2000px) */
+/* Medai queries */
+/* TABLET (max-width: 2000px) */
+/* Medai queries */
+
+
+
+@media (max-width: 3000px) {
+.Fimage{
+    width: 100%;
+    height: 400px;
+   
+}
+.Simage{
+    min-width: 50%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+  height: 400px;
+}
+.Fimage img{
+   min-width:100%;
+  margin: auto;
+ height: 400px;
+
+}
+}
+
+/* TABLET (max-width: 1250px) */
+/* Medai queries */
+/* TABLET (max-width: 1250px) */
+/* Medai queries */
+/* TABLET (max-width: 1250px) */
+/* Medai queries */
+/* TABLET (max-width: 1250px) */
+/* Medai queries */
+@media (max-width: 1250px) {
+    body{
+        font-size: 10px;
+    }
+   .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .logo img{
+width: 100%;
+}
+ 
+ 
+
+nav{
+    margin: 0;
+    background-color: brown;
+   padding: 10px;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+ 
+}
+nav ul{
+ 
+    gap:20px;
+    
+}
+ 
+nav a{
+    font-weight: bolder;
+      color: white;
+   letter-spacing: 2px;
+   letter-spacing: 0.1em;
+    text-decoration: none;
+}
+ 
+.Fimage{
+    min-width: 50%;
+  height: 350px;
+
+}
+.Simage{
+    min-width: 50%;
+   background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;    
+  background-size: cover;         
+  background-position: center;
+  height: 350px;
+
+}
+.Fimage img{
+    width: 100%;
+    height: 350px;
+
+}
+ 
+ 
+ 
+ #spn4{
+    color:rgb(0, 0, 0);
+    font-size: 0.655rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ 
+#questionpara{
+    width: 90%;
+    margin: auto;
+    font-size: 1.4em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    margin: 15px;
+    margin-bottom: 0;
+}
+.name{
+margin-left: 4%;
+}
+.mail{
+margin-left: 3.6%;
+}
+.phone{
+margin-left: 3%;
+}
+form label{
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input{
+   
+    border: none;
+    border:1px solid black;
+    padding: 2px;
+    margin: auto;
+    width: 40%;
+}
+form textarea{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+}
+ 
+textarea::placeholder {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 1em;
+}
+.confidential{
+    position: relative;
+}
+.confidential img{
+    position: absolute;
+    width: 35%;
+    height: 60px;
+   bottom: 100px;
+   margin-left: 60%;
+   transform: rotate(10deg);
+}
+.Guarante{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   margin: auto;
+   margin-left: 5%;
+   margin-top: 12px;
+}
+.Guarante p{
+   font-style: italic;
+   font-size: 1.5em;
 }
 #askusbtn{
     width: 70%;
@@ -205,7 +699,7 @@ border-radius: 2px;
 .btnG p{
     color:white;
     font-weight: 500;
-    font-size: 1.19em;
+    font-size: 1.3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
 }
@@ -218,7 +712,7 @@ border-radius: 2px;
     gap:20px;
 }
 .line{ 
-  width: 10.6em;   
+  width: 12.6em;   
   height: 2px;     
   background-color: rgba(155, 145, 145, 0.605);
 }
@@ -348,7 +842,7 @@ h2{
     margin: 10px;
      background-color: rgba(91, 88, 88, 0.71);
      width: 100%;
-     height: 79px;
+     height: 49px;
       
      
 }
@@ -384,40 +878,38 @@ text-transform: uppercase;
     color:white;
   padding: 2px;
 }
-.btn{
-    margin-left: 40px;
-    margin-top: 3px;
-}
+ 
 .btn span{
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 0.85em;
     font-weight: 500;
     cursor: pointer;
-  
+}
+.btn1 img{
+    width: 0.6em;
 }
 .btn2{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 125px;
+    margin-left: 60px;
     
 
 }
 .btn2 span{
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 0.85em;
     font-weight: 600;
     cursor: pointer;
 }
 .btn2 img{
-    width: 10px;
+    width: 7%;
    
 }
  
 .spnbtn{
-    margin-left: 160px;
+    margin-left: 10px;
     margin-top: 20px;
 }
 .second .spnbtn{
@@ -433,13 +925,16 @@ text-transform: uppercase;
     margin-left: 35px;
 }
 .third .btn img{
-    width: 10px;
+    width: 0.6em;
      
+}
+.btn3 img{
+    width: 0.6em;
 }
 .pra-img img{
     margin-top: 3.5px;
     width: 12px;
-    height: 79px;
+    height: 49px;
 }
 .linecontainer{
     margin-left: -5px;
@@ -454,7 +949,7 @@ text-transform: uppercase;
     margin-top: 5px;
 }
 .linecontainer .line{
-    width: 190px;
+    width: 14em;
     background-color: rgba(86, 81, 81, 0.799);
 }
 .clientimages{
@@ -468,11 +963,10 @@ text-transform: uppercase;
     width: 10em;
 }
 .clientimages .img2{
-    width: 140px;
     width: 9em;
 }
 .socialicons h1{
-    font-size: 1.2em;
+    font-size: 1.8em;
     text-align: center;
     font-weight: bold;
 }
@@ -488,56 +982,48 @@ text-transform: uppercase;
     margin-bottom: 50px;
 }
 .icons img{
-    width: 38px;
+    width: 1.8em;
 }
 .brownlinecontainer{
     width: 100%;
     height: 10px;
     background-color: rgb(105, 33, 33);
 }
-
-/* Medai queries */
-/* TABLET (max-width: 2000px) */
-/* Medai queries */
-/* TABLET (max-width: 2000px) */
-/* Medai queries */
-/* TABLET (max-width: 2000px) */
-/* Medai queries */
-
-
-
-@media (max-width: 2000px) {
-.Fimage{
-    width: 100%;
-    height: 400px;
-   
+ .iconlinecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.Simage{
-    min-width: 50%;
-   background-image: url("form_bg.jpg");
-    background-repeat: no-repeat;    
-  background-size: cover;         
-  background-position: center;
-  height: 400px;
+#iconline{
+    display: flex;
+    height: 2px;
+    width:12em;
+     background-color: rgba(86, 81, 81, 0.799);
+    align-items: center;
+    justify-content: center;
 }
-.Fimage img{
-   min-width:100%;
-  margin: auto;
- height: 400px;
 
+/* TABLET (max-width: 850px) */
+/* Medai queries */
+/* TABLET (max-width: 850px) */
+/* Medai queries */
+/* TABLET (max-width: 850px) */
+/* Medai queries */
+
+@media (max-width: 850px) {
+body{
+    font-size: 8px;
 }
 }
-/* TABLET (max-width: 1250px) */
-/* Medai queries */
-/* TABLET (max-width: 1250px) */
-/* Medai queries */
-/* TABLET (max-width: 1250px) */
-/* Medai queries */
-/* TABLET (max-width: 1250px) */
-/* Medai queries */
-@media (max-width: 1250px) {
+/* TABLET (max-width: 790px) */
+/* TABLET (max-width: 790px) */
+/* TABLET (max-width: 790px) */
+/* TABLET (max-width: 790px) */
+/* TABLET (max-width: 790px) */
+
+@media (max-width: 790px) {
     body{
-        font-size: 30px;
+        font-size: 18px;
     }
   .top{
     width: 100%;
@@ -603,8 +1089,7 @@ nav a{
 }
 .Fimage{
     width: 100%;
-    height: 80%;
-   
+    height: 440px;
 }
 .Simage{
     min-width: 100%;
@@ -612,11 +1097,13 @@ nav a{
     background-repeat: no-repeat;    
   background-size: cover;         
   background-position: center;
-height: auto;
+  height: 440px;
 }
 .Fimage img{
    min-width:100%;
-  height: 80%;
+  margin: auto;
+  height: 440px;
+
 }
  
  #spn1{
@@ -624,22 +1111,22 @@ height: auto;
  }
  #spn2{
     color:rgb(38, 69, 152);
-    font-size: 1.8em;
+    font-size: 1.6em;
  }
  #spn4{
     color:rgb(0, 0, 0);
-    font-size: 0.77em;
+    font-size: 0.57em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  
  #h1Q{
     background-color: brown;
     padding: 5px;
-    font-size: 1.9em;
+    font-size: 1.4em;
     color:white;
  }
  .questions h2{
-    font-size: 1.2em;
+    font-size: 1em;
  }
 .questions{
     display: flex;
@@ -686,16 +1173,16 @@ form textarea{
     width: 80%;
     padding: 10px;
     margin: auto;
-    height: 70px;
+    height: 40px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  
 }
  
 textarea::placeholder {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:black;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .confidential{
     position: relative;
@@ -703,8 +1190,8 @@ textarea::placeholder {
 .confidential img{
     position: absolute;
     width: 30%;
-    height: 80px;
-   bottom:180px;
+    height: 60px;
+   bottom:135px;
    margin-left: 60%;
    transform: rotate(10deg);
 }
@@ -714,20 +1201,21 @@ textarea::placeholder {
     gap: 20px;
    margin: auto;
    margin-left: 5%;
-   margin-bottom: 20px;
+ 
 }
 .Guarante p{
    font-style: italic;
+   font-size: 1.1em;
 }
 #askusbtn{
-    width: 80%;
-    margin-left: 6px;
+    width: 90%;
+    margin-left: 1px;
 }
 .btnG{
     display: flex;
     background-color: brown;
     gap: 5px;
-    padding: 15px 15px;
+    padding: 10px 10px;
 
 }
 .btnG p{
@@ -767,526 +1255,6 @@ h2{
     
 }
 .first p{
-    margin-top: 20px;
-    font-size: 1.25em;
-}
-.firstimage img{
-    width: 6.2em;
-    margin-bottom: 20px;
-}
-.firstcontent{
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.second{
-    width: 90%;
-    padding: 20px;
-    margin: 10px;
-    
-}
-.second p{
-        width: 80%;
-    font-size: 1.25em;
-}
- 
-.pic1 img{
-    width: 10.5em;
-}
-.ordericon img{
-    width: 10.5em;
-}
-
-.heading1{
-      display: flex;
-    justify-content: start;
-    align-items: center; 
- 
-    
-}
-.heading2{
-      display: flex;
-    justify-content: start;
-    align-items: center;
-     
-}
-
-.third{
-    width: 100%;
-    padding: 20px;
-}
-.third img{
-    width: 6.1em;
-}
-#picqqq{
-    width: 7em;
-   
-}
-.thirdimages{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:20px;
-    margin-bottom: 10px;
-}
-.third p{
-    margin-top: 10px;
-}
-.lastsec{
- display: flex;
- flex-direction: column;
- justify-content: center;
-}
-.contentarea{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
- width: 90%;
-
-}
- .pra-img img{
-   margin-top: -0.01em;
-    width: 0.5em;
-    height: 90px;
-}
-.practarea{
-     display: flex;
-    align-items: start;
-    gap:10px;
-     background-color: rgba(91, 88, 88, 0.71);
-     width: 70%;
-     height: 90px;
-     
-}
-
- .prctcontent h2{
-color:white;
-font-size: 1em;
-text-transform: uppercase;
- }
- .prctcontent span{
-color:white;
-font-size: 2em;
-text-transform: uppercase;
- 
- }
-  .prctcontent img{
- margin-top: 10px;
- }
-
-.titlearea{
- width: 90%;
- padding: 20px;
- text-align: center;
-}
-.titlearea h1{
-    font-size: 1.6em;
-    margin-bottom: 20px;
-}
-.titlearea p{
-    font-size: 1em;
-    line-height: 1.5;
-    text-align: start;
-    
-}
-.clientarea{
- width: 90%;
- padding: 20px;
- text-align: center;
-}
-
- .moreabout{
-    margin-top: 50px;
- }
- .menuarea h1{
-     margin-top: 80px;
-     text-align: center;
-     line-height: 1.5;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     color: rgba(0, 0, 0, 0.249);
-     
- }
- .btn1 img{
-    width: 0.5em;
-     
-}
-.third .btn1 img{
-     width: 0.5em;
-}
- 
-.spnbtn span{
-    background-color: brown;
-    color:white;
-  padding: 2px;
-}
-.btn{
-    margin-left: 40px;
-    margin-top: 3px;
-}
-.btn span{
-    padding: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    cursor: pointer;
-  
-}
-.btn2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-  right: 25%;
- 
-    
-
-}
-.btn2 span{
-    padding: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.7em;
-    font-weight: 600;
-    cursor: pointer;
-    
-}
-.btn2 img{
-    width:0.5em;
-   
-}
-.btn3 img{
-    width: 0.5em;
-}
- 
-.spnbtn{
-    margin-left: 160px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-.second .spnbtn{
-    margin-left: 0px;
-}
-.third .spnbtn{
-    margin-left: 90px;
-}
-.third .btn{
-    margin-left: 35px;
-}
-
-
-
-.linecontainer{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-.linecontainer span{
-       background-color: brown;
-    color:white;
-}
-.linecontainer .btn{
-    margin-top: 5px;
-}
-.linecontainer .line{
-    width: 350px;
-    background-color: rgba(86, 81, 81, 0.799);
-  
-}
-.clientimages{
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    align-items: center;
-     margin-bottom: 30px;
-}
-.clientcontent p{
-   margin-top: 20px;
-}
-.clientimages img{
-    width: 8em;
-}
-.clientimages .img2{
-    width: 6.5em;
-}
-.socialicons h1{
-    font-size: 1.2em;
-    text-align: center;
-    font-weight: bold;
-}
- 
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:20px;
-    margin-top: 15px;
-    margin-bottom: 50px;
-}
-.iconlinecontainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#iconline{
-    display: flex;
-    height: 2px;
-    width:250px;
-     background-color: rgba(86, 81, 81, 0.799);
-    align-items: center;
-    justify-content: center;
-}
-.icons img{
-    width: 1.5em;
-}
-.brownlinecontainer{
-    width: 100%;
-    height: 10px;
-    background-color: rgb(105, 33, 33);
-}
-}
-/* TABLET (max-width: 800px) */
-/* Medai queries */
-/* TABLET (max-width: 800px) */
-/* Medai queries */
-/* TABLET (max-width: 800px) */
-/* Medai queries */
-/* TABLET (max-width: 800px) */
-@media (max-width: 800px) {
-    body{
-        font-size: 22px;
-    }
-  .top{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.top .logo img{
-width: 100vw;
-}
-.headercontent{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.headercontent h1{
-     font-weight: bold;
-     font-size: 2.8em;
-}
-.headercontent h2{
-     font-weight: bold;
-     font-size: 1.553em;
-}
-#topline{
-    width: 100%;
-    margin-top: 4px;
-    height: 4px;
-     background-color: rgba(86, 81, 81, 0.799);
-}
-.headercontent p{
-     font-weight: bold;
-     font-size: 1.16em;
-}
-
-nav{
-    display: none;
-    margin: 0;
-    background-color: brown;
-   padding: 2px;
-    font-family: Geneva, Tahoma, sans-serif;
-    
- 
-}
-nav ul{
-    padding-right:25px;
-      list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap:25px;
-    
-}
- 
-nav a{
-    font-weight: bolder;
-      color: white;
-   letter-spacing: 2px;
-    text-decoration: none;
-}
-.heroimages{
-    gap:20px;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.Fimage{
-    width: 100%;
-    height: 70%;
-   
-}
-.Simage{
-    min-width: 100%;
-   background-image: url("form_bg.jpg");
-    background-repeat: no-repeat;    
-  background-size: cover;         
-  background-position: center;
-}
-.Fimage img{
-   min-width:100%;
-  margin: auto;
-height: 70%;
-}
- 
- #spn1{
-    color:brown;
- }
- #spn2{
-    color:rgb(38, 69, 152);
-    font-size: 1.8em;
- }
- #spn4{
-    color:rgb(0, 0, 0);
-    font-size: 0.77em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
- 
- #h1Q{
-    background-color: brown;
-    padding: 5px;
-    font-size: 1.9em;
-    color:white;
- }
- .questions h2{
-    font-size: 1.2em;
- }
-.questions{
-    display: flex;
-    gap:40px
-}
-#questionpara{
-    width: 90%;
-    margin: auto;
-    font-size: 1.3em;
-    margin-top: 25px;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    gap:15px;
-    margin: 5px;
-    margin-top: 30px;
-}
-.name{
-margin-left: 5%;
-}
-.mail{
-margin-left: 4.3%;
-}
-.phone{
-margin-left: 3.5%;
-}
-form label{
-    font-size: 0.75em;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-form input{
-   
-    border: none;
-    border:1px solid black;
-    padding: 2px;
-    margin: auto;
-    width: 40%;
-    font-size: 0.9em;
-}
-form textarea{
-    display: flex;
-    width: 80%;
-    padding: 10px;
-    margin: auto;
-    height: 70px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
- 
-textarea::placeholder {
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:black;
-  font-size: 1.5em;
-}
-.confidential{
-    position: relative;
-}
-.confidential img{
-    position: absolute;
-    width: 30%;
-    height: 80px;
-   bottom:180px;
-   margin-left: 60%;
-   transform: rotate(10deg);
-}
-.Guarante{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-   margin: auto;
-   margin-left: 5%;
-   margin-bottom: 20px;
-}
-.Guarante p{
-   font-style: italic;
-}
-#askusbtn{
-    width: 50%;
-    margin-left: 6px;
-}
-.btnG{
-    display: flex;
-    background-color: brown;
-    gap: 5px;
-    padding: 15px 15px;
-
-}
-.btnG p{
-    color:white;
-    font-weight: 500;
-    font-size: 0.6em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-}
- 
-.thirdsec{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    gap:20px;
-}
- 
-.linev{
-     display: none;
-}
-.line2{
-    display: none;
-}
-.first{
-    width: 100%;
-    padding: 20px;
-}
-h1{
-    font-size: 1.55em;
-}
-h2{
-    margin-top: 5px;
-    font-size: 1.122em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-.first p{
     width: 90%;
     margin-top: 20px;
     font-size: 1.25em;
@@ -1317,20 +1285,23 @@ h2{
 }
 .ordericon img{
     width: 10.5em;
+}
+.heading1 p{
+    width: 60%;
 }
 .heading2 p{
-    width: 110%;
+    width: 60%;
 }
 .heading1{
       display: flex;
     justify-content: start;
     align-items: center; 
- 
     
 }
 .heading2{
+    margin-top: 30px;
       display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
      
 }
@@ -1637,8 +1608,7 @@ nav a{
 }
 .Fimage{
     width: 100%;
-    
-   
+    height: 260px;
 }
 .Simage{
     min-width: 100%;
@@ -1646,10 +1616,12 @@ nav a{
     background-repeat: no-repeat;    
   background-size: cover;         
   background-position: center;
+   height: 260px;
 }
 .Fimage img{
    min-width:100%;
   margin: auto;
+  height: 260px;
 
 }
  
@@ -1750,6 +1722,7 @@ textarea::placeholder {
 }
 .Guarante p{
    font-style: italic;
+   font-size: 1em;
 }
 #askusbtn{
     width: 40%;
@@ -2084,7 +2057,7 @@ nav a{
 }
 .Fimage{
     width: 100%;
-    
+    height: 220px;
    
 }
 .Simage{
@@ -2093,11 +2066,12 @@ nav a{
     background-repeat: no-repeat;    
   background-size: cover;         
   background-position: center;
+  height: 220px;
 }
 .Fimage img{
    min-width:100%;
   margin: auto;
-
+height: 220px;
 }
  
  #spn1{
@@ -2369,7 +2343,6 @@ h2{
   padding: 2px;
 }
 .btn{
-    margin-left: 40px;
     margin-top: 3px;
 }
 .btn span{
@@ -2383,7 +2356,6 @@ h2{
 .btn2{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-left: 125px;
 }
 .btn2 span{
@@ -2478,3 +2450,12 @@ h2{
     background-color: rgb(105, 33, 33);
 }
 }
+
+
+/* btn2 allignment */
+/* btn2 allignment */
+/* btn2 allignment */
+/* btn2 allignment */
+/* btn2 allignment */
+/* btn2 allignment */
+ 
