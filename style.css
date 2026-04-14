@@ -1,4 +1,4 @@
- *{
+  *{
     margin: 0;
     padding: 0;
     color:rgb(26, 23, 23);
@@ -234,23 +234,10 @@ border-radius: 2px;
   height: 2px;     
   background-color: rgba(155, 145, 145, 0.605);
 }
-.linev{
-    
-  width: 2px;       
-  height: 18em;     
-  background-color: rgba(199, 190, 190, 0.527);
-}
-.line2{
-    display: none;
-   margin-left: -10%;
-     width: 485px;     
-  height: 2px;     
-  background-color:rgba(199, 190, 190, 0.527);
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
+ 
+ 
 .first{
-    width: 33.33%;
+    width: 33%;
     padding: 20px;
 }
 h1{
@@ -278,8 +265,14 @@ h2{
     
 }
 .second{
-    width: 33.33%;
-    padding: 20px;
+    width: 40%;
+    
+}
+.second h1,p,.spnbtn,.btn{
+    padding-left: 10px;
+}
+.second .pic1,.ordericon{
+    padding-right: 10px;
 }
 .second p{
         width: 80%;
@@ -293,9 +286,11 @@ h2{
       width: 10.5em;
 }
 .heading2 p{
-    width: 110%;
+    width: 100%;
 }
 .heading1{
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.135);
       display: flex;
     justify-content: center;
     align-items: center;
@@ -310,7 +305,7 @@ h2{
 }
 
 .third{
-    width: 33.33%;
+    width: 27%;
     padding: 20px;
 }
 .third img{
@@ -410,6 +405,9 @@ text-transform: uppercase;
     cursor: pointer;
   
 }
+.btn1{
+    margin-left: 20px;
+}
 .btn2{
     display: flex;
     align-items: center;
@@ -434,15 +432,17 @@ text-transform: uppercase;
     margin-left: 160px;
     margin-top: 20px;
 }
+.second{
+    border-left:2px solid rgba(0, 0, 0, 0.135) ;
+    border-right:2px solid rgba(0, 0, 0, 0.135) ;
+}
 .second .spnbtn{
     margin-left: 0px;
 }
 .third .spnbtn{
     margin-left: 90px;
 }
-.third .btn{
-    margin-left: 35px;
-}
+
 .third .btn img{
     width: 10px;
      
@@ -716,20 +716,8 @@ border-radius: 2px;
   height: 2px;     
   background-color: rgba(155, 145, 145, 0.605);
 }
-.linev{
-    
-  width: 2px;       
-  height: 18em;     
-  background-color: rgba(199, 190, 190, 0.527);
-}
-.line2{
-   margin-left: -10%;
-     width: 485px;     
-  height: 2px;     
-  background-color:rgba(199, 190, 190, 0.527);
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
+ 
+ 
 .first{
     width: 33.33%;
     padding: 20px;
@@ -760,7 +748,6 @@ h2{
 }
 .second{
     width: 33.33%;
-    padding: 20px;
 }
 .second p{
         width: 80%;
