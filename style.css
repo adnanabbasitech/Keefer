@@ -1002,6 +1002,7 @@ text-transform: uppercase;
     align-items: center;
     justify-content: center;
 }
+}
 
 /* TABLET (max-width: 850px) */
 /* Medai queries */
@@ -2457,5 +2458,107 @@ h2{
 /* btn2 allignment */
 /* btn2 allignment */
 /* btn2 allignment */
+@media (min-width: 435px){
+
+    .btn2{
+        margin-left: 165px;
+    }
+}
 /* btn2 allignment */
+@media (min-width: 550px){
+
+    .btn2{
+        margin-left: 210px;
+    }
+}
+@media (min-width: 636px){
+
+    .btn2{
+        margin-left: 255px;
+    }
+}
+@media (min-width: 670px){
+
+    .btn2{
+        margin-left: 265px;
+    }
+}
+@media (min-width: 700px){
+
+    .btn2{
+        margin-left: 285px;
+    }
+}
+@media (min-width: 750px){
+
+    .btn2{
+        margin-left: 305px;
+    }
+}
+@media (min-width: 780px){
+
+    .btn2{
+        margin-left: 325px;
+    }
+}
+@media (min-width: 790px){
+
+    .btn2{
+        margin-left: 70px;
+    }
+}
+@media (min-width: 930px){
+
+    .btn2{
+        margin-left: 90px;
+    }
+}
+@media (min-width: 990px){
+
+    .btn2{
+        margin-left: 110px;
+    }
+}
+@media (min-width: 1020px){
+
+    .btn2{
+        margin-left: 110px;
+    }
+}
+@media (min-width: 1070px){
+
+    .btn2{
+        margin-left: 130px;
+    }
+}
+@media (min-width: 1150px){
+
+    .btn2{
+        margin-left: 150px;
+    }
+}
+@media (min-width: 1250px){
+
+    .btn2{
+        margin-left: 125px;
+    }
+}
+@media (min-width: 1450px){
+
+    .btn2{
+        margin-left: 175px;
+    }
+}
+@media (min-width: 1650px){
+
+    .btn2{
+        margin-left: 225px;
+    }
+}
+@media (min-width: 1850px){
+
+    .btn2{
+        margin-left: 280px;
+    }
+}
  
