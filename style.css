@@ -1,4 +1,4 @@
-  *{
+ *{
     margin: 0;
     padding: 0;
     color:rgb(26, 23, 23);
@@ -998,7 +998,7 @@ text-transform: uppercase;
 /* TABLET (max-width: 850px) */
 /* Medai queries */
 
-@media (max-width: 850px) {
+@media (max-width: 880px) {
 body{
     font-size: 8px;
 }
@@ -1527,7 +1527,7 @@ text-transform: uppercase;
 /*MOBILE (max-width: 600px)*/
 /*MOBILE (max-width: 600px)*/
  
-@media (max-width: 600px) {
+@media (max-width: 615px) {
 
     body{
         font-size: 16px;
@@ -2438,17 +2438,13 @@ h2{
     background-color: rgb(105, 33, 33);
 }
 }
-
-
-/* btn2 allignment */
-/* btn2 allignment */
 /* btn2 allignment */
 /* btn2 allignment */
 /* btn2 allignment */
 @media (min-width: 435px){
 
     .btn2{
-        margin-left: 165px;
+        margin-left: 145px;
     }
 }
 /* btn2 allignment */
